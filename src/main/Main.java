@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package core;
+package main;
+
+import core.Person;
 
 /**
  *
@@ -10,6 +12,9 @@ package core;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+       Person person = new Person("1049583242", "Dubal", 18);
+       
+        System.out.println(person.toString());
+       
     }
 }
