@@ -4,6 +4,7 @@
  */
 package main;
 
+import core.Cat;
 import core.Person;
 
 /**
@@ -15,6 +16,6 @@ public class Main {
        Person person = new Person("1049583242", "Dubal", 18);
        
         System.out.println(person.toString());
-       
+       Cat cat = new Cat("Cat");
     }
 }
